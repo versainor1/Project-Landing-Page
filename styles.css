@@ -4,8 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif ;
 }
 
-
-
+/* HEADER */
 
 .header {
     background: #1F2937;
@@ -38,4 +37,64 @@ ul {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+/* 1ST SECTION */
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    padding: 10%;
+    margin: 0;
+    gap: 50px;
+}
+
+.first-box,
+.second-box {
+    width: 600px;
+    height: 300px;
+    background: lightgray;
+    background-color: #1F2937;
+}
+
+.first-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.first-section-text {
+    color: #E5E7EB;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.first-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button.sign-up {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    width: 100px;
+}
+
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    
 }
