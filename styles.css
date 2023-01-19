@@ -98,3 +98,56 @@ img {
     max-width: 100%;
     
 }
+
+.second-section-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 20px;
+    padding: 80px;
+    
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 40px;
+    margin-bottom: 160px;
+}
+
+.second-section-info {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.second-section-img {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding: 20%;
+    margin: 0;
+    gap: 50px;
+}
+
+.third-section-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third-section-text {
+    display: flex;
+    justify-content: end;
+    font-weight: bolder;
+}
